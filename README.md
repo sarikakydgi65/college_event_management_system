@@ -29,13 +29,6 @@ Student
 
 ---
 
-🛠️ Technologies Used
-
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python
-- Framework: Flask (or Django, if used)
-- Database: SQLite / MySQL
-- Version Control: Git & GitHub
 
 ---
 
