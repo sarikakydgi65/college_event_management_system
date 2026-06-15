@@ -1,0 +1,6 @@
+{
+  "name": "College Event Management System",
+  "description": "A comprehensive event registration, classroom booking, and feedback system with real-time relational query simulation, database management guide, and direct frontend-backend integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

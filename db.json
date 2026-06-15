@@ -1,0 +1,470 @@
+{
+  "students": [
+    {
+      "student_id": 1,
+      "name": "Alice Vance",
+      "department": "Computer Science",
+      "year": 3,
+      "email": "alice.vance@college.edu",
+      "phone": "555-0101",
+      "password_salt": "274bdea50e7896631815e537aa00b649",
+      "password_hash": "b335ddc6225f5716df5e88095b6e1ca84357b47bb2ecf049571d3e52052df979"
+    },
+    {
+      "student_id": 2,
+      "name": "Bob Sterling",
+      "department": "Information Technology",
+      "year": 2,
+      "email": "bob.sterling@college.edu",
+      "phone": "555-0102",
+      "password_salt": "f6d85c2f5e3d655663215d3af7697c4f",
+      "password_hash": "4b3864a1b021fab0e4d862ee48e137231c5f754031dc58c4da5e991fa3642943"
+    },
+    {
+      "student_id": 3,
+      "name": "Charlie Dev",
+      "department": "Electronics Engineering",
+      "year": 4,
+      "email": "charlie.dev@college.edu",
+      "phone": "555-0103",
+      "password_salt": "e00a757c2b208f701f128aaa30b81652",
+      "password_hash": "77d706f3616587c43ada03c0b574ad6e199a025b24114e6278bd5307057e533c"
+    },
+    {
+      "student_id": 4,
+      "name": "Diana Prince",
+      "department": "Computer Science",
+      "year": 1,
+      "email": "diana.prince@college.edu",
+      "phone": "555-0104",
+      "password_salt": "69140bf4a1e9c7f366b048dca8f09282",
+      "password_hash": "cdb937300f21c27ec8f7f61a5a7b4a39f3eb7d40146971dae582bb732114efc1"
+    },
+    {
+      "student_id": 5,
+      "name": "Ethan Hunt",
+      "department": "Mechanical Engineering",
+      "year": 3,
+      "email": "ethan.hunt@college.edu",
+      "phone": "555-0105",
+      "password_salt": "126433eef2bd192bc068613078349d5d",
+      "password_hash": "594a388a72f658137dc59bf4652e6d7b2f6acd9a6d90de23f535baee1e703698"
+    },
+    {
+      "student_id": 6,
+      "name": "Fiona Glenanne",
+      "department": "Electrical Science",
+      "year": 2,
+      "email": "fiona.g@college.edu",
+      "phone": "555-0106",
+      "password_salt": "02c6425a88933e27209d5b87ca3d5b03",
+      "password_hash": "11d0e9321184ef82c26f9a49ca80c1774d263bc85af22a6811a5288fa8417844"
+    },
+    {
+      "student_id": 7,
+      "name": "Grace Hopper",
+      "department": "Computer Science",
+      "year": 4,
+      "email": "grace@college.edu",
+      "phone": "555-0107",
+      "password_salt": "274bdea50e7896631815e537aa00b649",
+      "password_hash": "b335ddc6225f5716df5e88095b6e1ca84357b47bb2ecf049571d3e52052df979"
+    },
+    {
+      "student_id": 8,
+      "name": "Shravya Reddy",
+      "department": "Information Technology",
+      "year": 3,
+      "email": "shravya@college.edu",
+      "phone": "555-0108",
+      "password_salt": "274bdea50e7896631815e537aa00b649",
+      "password_hash": "b335ddc6225f5716df5e88095b6e1ca84357b47bb2ecf049571d3e52052df979"
+    },
+    {
+      "student_id": 9,
+      "name": "David Miller",
+      "department": "Bioinformatics",
+      "year": 2,
+      "email": "david@college.edu",
+      "phone": "555-0109",
+      "password_salt": "274bdea50e7896631815e537aa00b649",
+      "password_hash": "b335ddc6225f5716df5e88095b6e1ca84357b47bb2ecf049571d3e52052df979"
+    }
+  ],
+  "events": [
+    {
+      "event_id": 101,
+      "event_name": "National Tech Symposium",
+      "event_date": "2026-06-15",
+      "venue": "Main Auditorium",
+      "description": "Annual national-level tech research showcase and coding hackathon.",
+      "max_capacity": 150
+    },
+    {
+      "event_id": 102,
+      "event_name": "Art & Culture Fest 2026",
+      "event_date": "2026-06-22",
+      "venue": "Open Air Theater",
+      "description": "An interactive display of painting, music, drama and cultural heritage.",
+      "max_capacity": 250
+    },
+    {
+      "event_id": 103,
+      "event_name": "AI & Robotics Workshop",
+      "event_date": "2026-05-10",
+      "venue": "Seminar Hall B",
+      "description": "Hands-on training session on generative models and physical robotics controls.",
+      "max_capacity": 40
+    },
+    {
+      "event_id": 104,
+      "event_name": "Orientation Ceremony 2026",
+      "event_date": "2026-05-25",
+      "venue": "Conference Room Alpha",
+      "description": "Welcoming and introducing freshers to the college guidelines and facilities.",
+      "max_capacity": 100
+    },
+    {
+      "event_id": 105,
+      "event_name": "Deep Learning Bootcamp",
+      "event_date": "2026-07-05",
+      "venue": "Sir C.V. Raman Block - Room 302",
+      "description": "Advanced neural architectures, CNNs, LSTMs, and transformers masterclass.",
+      "max_capacity": 100
+    },
+    {
+      "event_id": 106,
+      "event_name": "IoT Hackathon: Smart Campus",
+      "event_date": "2026-07-12",
+      "venue": "Vikram Sarabhai Tower - Auditorium Annex",
+      "description": "Develop real-time sensor networks and smart-energy controllers for our green campus initiative.",
+      "max_capacity": 80
+    }
+  ],
+  "organizers": [
+    {
+      "organizer_id": 1,
+      "organizer_name": "Professor Marcus Vance",
+      "organizer_role": "Senior CS Coordinator",
+      "event_id": 101,
+      "phone": "555-0900",
+      "password_salt": "274bdea50e7896631815e537aa00b649",
+      "password_hash": "b335ddc6225f5716df5e88095b6e1ca84357b47bb2ecf049571d3e52052df979",
+      "email": "marcus.vance@college.edu"
+    },
+    {
+      "organizer_id": 2,
+      "organizer_name": "Dr. Alan Kay",
+      "organizer_role": "IT Department Coordinator",
+      "event_id": 105,
+      "phone": "555-0901",
+      "password_salt": "274bdea50e7896631815e537aa00b649",
+      "password_hash": "b335ddc6225f5716df5e88095b6e1ca84357b47bb2ecf049571d3e52052df979",
+      "email": "alan.kay@college.edu"
+    }
+  ],
+  "registrations": [
+    {
+      "registration_id": 1,
+      "student_id": 1,
+      "event_id": 101,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 2,
+      "student_id": 2,
+      "event_id": 101,
+      "attendance_status": "Absent"
+    },
+    {
+      "registration_id": 3,
+      "student_id": 3,
+      "event_id": 101,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 4,
+      "student_id": 4,
+      "event_id": 101,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 5,
+      "student_id": 1,
+      "event_id": 103,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 6,
+      "student_id": 3,
+      "event_id": 103,
+      "attendance_status": "Absent"
+    },
+    {
+      "registration_id": 7,
+      "student_id": 5,
+      "event_id": 103,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 8,
+      "student_id": 2,
+      "event_id": 104,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 9,
+      "student_id": 4,
+      "event_id": 104,
+      "attendance_status": "Present"
+    },
+    {
+      "registration_id": 10,
+      "student_id": 6,
+      "event_id": 104,
+      "attendance_status": "Absent"
+    },
+    {
+      "registration_id": 11,
+      "student_id": 1,
+      "event_id": 102,
+      "attendance_status": "Registered"
+    },
+    {
+      "registration_id": 12,
+      "student_id": 2,
+      "event_id": 102,
+      "attendance_status": "Registered",
+      "registered_at": "2026-05-28T07:16:35.201Z"
+    },
+    {
+      "registration_id": 13,
+      "student_id": 1,
+      "event_id": 105,
+      "attendance_status": "Registered",
+      "registered_at": "2026-05-28T07:42:22.041Z"
+    }
+  ],
+  "feedbacks": [
+    {
+      "feedback_id": 1,
+      "student_id": 1,
+      "event_id": 103,
+      "rating": 5,
+      "comments": "Superb hands-on experience! The robotics lab instructors were incredibly clear and patient."
+    },
+    {
+      "feedback_id": 2,
+      "student_id": 5,
+      "event_id": 103,
+      "rating": 4,
+      "comments": "Great material, but I wish we had an extra hour to complete the robotic arm calibration project."
+    },
+    {
+      "feedback_id": 3,
+      "student_id": 2,
+      "event_id": 104,
+      "rating": 3,
+      "comments": "Decent orientation. Found the guidelines slightly boring but the campus tour part was fun!"
+    },
+    {
+      "feedback_id": 4,
+      "student_id": 4,
+      "event_id": 104,
+      "rating": 5,
+      "comments": "Wonderfully organized! The welcome kits and visual directories were extremely helpful for a freshman."
+    }
+  ],
+  "classrooms": [
+    {
+      "classroom_id": 1,
+      "block_name": "Sir C.V. Raman Block",
+      "room_number": "Room 302",
+      "capacity": 60,
+      "availability_status": "Available"
+    },
+    {
+      "classroom_id": 2,
+      "block_name": "Alan Turing Annex",
+      "room_number": "Seminar Hall B",
+      "capacity": 45,
+      "availability_status": "Occupied"
+    },
+    {
+      "classroom_id": 3,
+      "block_name": "Vikram Sarabhai Tower",
+      "room_number": "Auditorium Annex",
+      "capacity": 120,
+      "availability_status": "Available"
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": 201,
+      "event_id": 103,
+      "classroom_id": 2,
+      "booking_date": "2026-05-10",
+      "start_time": "09:00:00",
+      "end_time": "13:00:00",
+      "booking_status": "Cancelled"
+    },
+    {
+      "booking_id": 202,
+      "event_id": 101,
+      "classroom_id": 3,
+      "booking_date": "2026-06-15",
+      "start_time": "09:30:00",
+      "end_time": "15:30:00",
+      "booking_status": "Confirmed"
+    },
+    {
+      "booking_id": 203,
+      "event_id": 103,
+      "classroom_id": 1,
+      "booking_date": "2026-06-15",
+      "start_time": "09:00:00",
+      "end_time": "12:00:00",
+      "booking_status": "Cancelled"
+    },
+    {
+      "booking_id": 204,
+      "event_id": 103,
+      "classroom_id": 2,
+      "booking_date": "2026-06-15",
+      "start_time": "09:00:00",
+      "end_time": "12:00:00",
+      "booking_status": "Cancelled"
+    },
+    {
+      "booking_id": 205,
+      "event_id": 103,
+      "classroom_id": 1,
+      "booking_date": "2026-06-15",
+      "start_time": "09:00:00",
+      "end_time": "12:00:00",
+      "booking_status": "Confirmed"
+    }
+  ],
+  "notifications": [
+    {
+      "notification_id": 1,
+      "user_id": 2,
+      "role": "student",
+      "title": "Registration Confirmed",
+      "message": "Your seat has been successfully secured for \"Art & Culture Fest 2026\". Registration code reference is #REG-12.",
+      "timestamp": "2026-05-28T07:16:35.201Z",
+      "read": false,
+      "type": "success"
+    },
+    {
+      "notification_id": 2,
+      "user_id": 1,
+      "role": "student",
+      "title": "Registration Confirmed",
+      "message": "Your seat has been successfully secured for \"Deep Learning Bootcamp\". Registration code reference is #REG-13.",
+      "timestamp": "2026-05-28T07:42:22.041Z",
+      "read": false,
+      "type": "success"
+    },
+    {
+      "notification_id": 3,
+      "user_id": 1,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:46.965Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 4,
+      "user_id": 2,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:46.965Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 5,
+      "user_id": 3,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:46.965Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 6,
+      "user_id": 4,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:46.965Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 7,
+      "user_id": 1,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:47.496Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 8,
+      "user_id": 2,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:47.496Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 9,
+      "user_id": 3,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:47.496Z",
+      "read": false,
+      "type": "update"
+    },
+    {
+      "notification_id": 10,
+      "user_id": 4,
+      "role": "student",
+      "title": "⚠️ Scheduled Event Updated",
+      "message": "The event \"National Tech Symposium\" you joined has been modified. Active Date: 2026-06-15. Location: Main Auditorium.",
+      "timestamp": "2026-05-28T07:44:47.496Z",
+      "read": false,
+      "type": "update"
+    }
+  ],
+  "emails": [
+    {
+      "email_id": 1,
+      "user_id": 2,
+      "to_email": "bob.sterling@college.edu",
+      "subject": "Seat Confirmed: Art & Culture Fest 2026",
+      "body_text": "Hi Bob Sterling,\n\nWe are pleased to confirm your seat reservation for \"Art & Culture Fest 2026\".\n\nBooking Schedule Detail:\n- Event: Art & Culture Fest 2026\n- Date: 2026-06-22\n- Allocated Venue: Open Air Theater\n\nPlease present this email or your registered Student ID #2 to the event desk upon entry.\n\nWarm regards,\nEvent Coordinator Desk",
+      "sent_at": "2026-05-28T07:16:35.201Z",
+      "type": "registration_confirm"
+    },
+    {
+      "email_id": 2,
+      "user_id": 1,
+      "to_email": "alice.vance@college.edu",
+      "subject": "Seat Confirmed: Deep Learning Bootcamp",
+      "body_text": "Hi Alice Vance,\n\nWe are pleased to confirm your seat reservation for \"Deep Learning Bootcamp\".\n\nBooking Schedule Detail:\n- Event: Deep Learning Bootcamp\n- Date: 2026-07-05\n- Allocated Venue: Sir C.V. Raman Block - Room 302\n\nPlease present this email or your registered Student ID #1 to the event desk upon entry.\n\nWarm regards,\nEvent Coordinator Desk",
+      "sent_at": "2026-05-28T07:42:22.041Z",
+      "type": "registration_confirm"
+    }
+  ]
+}
